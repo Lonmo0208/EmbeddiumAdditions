@@ -1,0 +1,9 @@
+{
+  "_._._comment": "FPS section",
+  "embeddium.additions.fps_display.fps": "FPS",
+  "embeddium.additions.fps_display.min": "MIN",
+  "embeddium.additions.fps_display.os": "OS",
+  "embeddium.additions.fps_display.avg": "AVG",
+  "embeddium.additions.fps_display.gpu": "GPU",
+  "embeddium.additions.fps_display.mem": "MEM"
+}
