@@ -1,4 +1,4 @@
-package me.srrapero720.embeddium.additions.util;
+package me.srrapero720.sodium.additions.util;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import com.electronwill.nightconfig.core.io.WritingMode;
@@ -10,7 +10,7 @@ import org.apache.logging.log4j.MarkerManager;
 
 import java.nio.charset.StandardCharsets;
 
-import static me.srrapero720.embeddium.additions.EmbeddiumAdditions.LOGGER;
+import static me.srrapero720.sodium.additions.SodiumAdditions.LOGGER;
 
 public class EAConfig {
     public static final Marker IT = MarkerManager.getMarker("Config");

@@ -1,4 +1,4 @@
-package me.srrapero720.embeddium.additions.features.fpsdisplay.placeholders;
+package me.srrapero720.sodium.additions.features.fpsdisplay.placeholders;
 
 import it.unimi.dsi.fastutil.chars.CharArrayList;
 import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;

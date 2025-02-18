@@ -1,9 +1,9 @@
-package me.srrapero720.embeddium.additions.features.fpsdisplay;
+package me.srrapero720.sodium.additions.features.fpsdisplay;
 
-import me.srrapero720.embeddium.additions.features.fpsdisplay.placeholders.Placeholder;
-import me.srrapero720.embeddium.additions.features.fpsdisplay.tools.FPSTool;
-import me.srrapero720.embeddium.additions.features.fpsdisplay.tools.OSTool;
-import me.srrapero720.embeddium.additions.util.EAConfig;
+import me.srrapero720.sodium.additions.features.fpsdisplay.placeholders.Placeholder;
+import me.srrapero720.sodium.additions.features.fpsdisplay.tools.FPSTool;
+import me.srrapero720.sodium.additions.features.fpsdisplay.tools.OSTool;
+import me.srrapero720.sodium.additions.util.EAConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;

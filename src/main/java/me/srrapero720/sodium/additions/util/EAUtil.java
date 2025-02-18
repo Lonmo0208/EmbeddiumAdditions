@@ -1,4 +1,4 @@
-package me.srrapero720.embeddium.additions.util;
+package me.srrapero720.sodium.additions.util;
 
 import net.minecraft.ChatFormatting;
 

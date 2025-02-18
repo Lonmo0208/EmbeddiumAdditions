@@ -1,8 +1,8 @@
-package me.srrapero720.embeddium.additions.mixins.impl.fpsdisplay;
+package me.srrapero720.sodium.additions.mixins.impl.fpsdisplay;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import me.srrapero720.embeddium.additions.util.EAConfig;
+import me.srrapero720.sodium.additions.util.EAConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.MultiPlayerGameMode;
 import net.minecraft.util.profiling.metrics.profiling.MetricsRecorder;

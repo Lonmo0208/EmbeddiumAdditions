@@ -57,9 +57,12 @@ repositories {
     maven { url "https://maven.tterrag.com/" }
     maven { url "https://maven.fabricmc.net/" }
     maven { url 'https://jitpack.io' }
+    flatDir { dirs "libs" }
 }
 
 dependencies {
+    implementation fg.deobf('libs:Sodium-NeoForge:mc1.20.1-0.6.0-Fix')
+    //implementation fg.deobf("org.embeddedt:embeddium-${mcversion}:${embeddiumversion}")
     minecraft "net.minecraftforge:forge:${mcversion}-${fgversion}"
     annotationProcessor "net.fabricmc:sponge-mixin:${fabric_mixin_version}+mixin.${mixin_version}"
 
@@ -70,8 +73,8 @@ dependencies {
     }
 
     // DEPENDENCIES
-    implementation fg.deobf("org.embeddedt:embeddium-${mcversion}:${embeddiumversion}")
-    implementation fg.deobf("curse.maven:jei-238222:${jeiversion}")
+
+    implementation fg.deobf('libs:Iris-NeoForge:mc1.20.1-1.8.0-Fix')
     runtimeOnly fg.deobf("curse.maven:oculus-581495:${oculusversion}")
 
     // UTILITY FOR FAST LOADING AND IN-DEV COMPAT RESOLUTIONS

@@ -1,4 +1,4 @@
-package me.srrapero720.embeddium.additions.mixins;
+package me.srrapero720.sodium.additions.mixins;
 
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 import java.util.List;
 import java.util.Set;
 
-import static me.srrapero720.embeddium.additions.EmbeddiumAdditions.LOGGER;
+import static me.srrapero720.sodium.additions.SodiumAdditions.LOGGER;
 
 public class MixinPlugin implements IMixinConfigPlugin {
     private static final Marker IT = MarkerManager.getMarker(MixinPlugin.class.getSimpleName());

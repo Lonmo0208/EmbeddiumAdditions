@@ -1,7 +1,7 @@
-package me.srrapero720.embeddium.additions.features.fpsdisplay.tools;
+package me.srrapero720.sodium.additions.features.fpsdisplay.tools;
 
-import me.srrapero720.embeddium.additions.features.fpsdisplay.FPSDisplay;
-import me.srrapero720.embeddium.additions.util.EAUtil;
+import me.srrapero720.sodium.additions.features.fpsdisplay.FPSDisplay;
+import me.srrapero720.sodium.additions.util.EAUtil;
 
 public class OSTool {
     private static final Runtime runtime = Runtime.getRuntime();

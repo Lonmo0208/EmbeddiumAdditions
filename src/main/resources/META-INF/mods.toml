@@ -24,8 +24,8 @@ description='''${mod_description}'''
    side="CLIENT"
 
 [[dependencies.${modid}]]
-   modId="embeddium"
+   modId="sodium"
    mandatory=true
-   versionRange="${embeddiumrange}"
+   versionRange="0.6.0"
    ordering="AFTER"
    side="CLIENT"

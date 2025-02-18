@@ -1,4 +1,4 @@
-package me.srrapero720.embeddium.additions.util;
+package me.srrapero720.sodium.additions.util;
 
 import it.unimi.dsi.fastutil.longs.LongLongMutablePair;
 import it.unimi.dsi.fastutil.longs.LongLongPair;
@@ -6,7 +6,7 @@ import net.minecraft.Util;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
 
-import static me.srrapero720.embeddium.additions.EmbeddiumAdditions.LOGGER;
+import static me.srrapero720.sodium.additions.SodiumAdditions.LOGGER;
 
 public class EABench {
     private final LongLongPair[] times = new LongLongPair[100];
